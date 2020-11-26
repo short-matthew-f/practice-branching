@@ -1,5 +1,11 @@
+import ActivityList from "./ActivityList";
+
 const App = () => {
-  return <h1>Hello!</h1>;
+  return (
+    <>
+      <ActivityList activities={[]} />
+    </>
+  );
 };
 
 export default App;
