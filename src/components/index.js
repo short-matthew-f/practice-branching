@@ -4,6 +4,7 @@ const App = () => {
   return (
     <>
       <ActivityList activities={[]} />
+      <h1>Great news!</h1>
     </>
   );
 };
